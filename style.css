@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 110px 0px 0px;
+}
+.firstword{
+    background-color: white;
+}
+.the{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+.secondword{
+    width: 439px;
+}
+.who{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.we{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+.img{
+    width: 238px;
+}
+.name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.people{
+    display: grid;
+    grid-template-columns: 37% 37% 37%;
+    margin: 100px 16% 0px;
+}
+.person{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 250px;
+}
+.job{
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+    height: 15px;
+    width: 200px;
+    margin: 94px 0px 0px -80px;
+}
+.person1{
+    margin: 100px 0px 0px;
+}
+.abov{
+    width: 300px;
+    margin: 100px auto 10px;
+}
+.above{
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+.above:hover{
+    text-decoration: underline;
+}
+.name1{
+    margin-top: -60px;
+}
+@media screen and (max-width: 1100px) {
+    .people{
+        margin: 30px 6% 0px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .people{
+        margin: 30px 50px 0px;
+        grid-template-columns: 50% 50%;
+        margin-right: -50px;
+    }
+    .person1{
+        margin: 0px;
+    }
+    .person2{
+        margin: 70px 0px 0px;
+    }
+    .first{
+        display:block;
+        margin: 110px 0px 0px 50px;
+    }
+    .name1{
+        margin-top: 0px;
+    }
+    .name2{
+        margin-top: -50px;
+    }
+    .secondword{
+        width: 90%;
+    }
+}
